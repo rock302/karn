@@ -6,6 +6,7 @@
 .img {
   place-items: center;
   display: block;
+  /* display: flex; */
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -17,15 +18,19 @@ h3 {
   font-size: 30px;
 }
 p {
-  padding: auto;
+  padding: 20px;
   font-size: x-large;
+  border: 3px solid black;
+  margin-left: 10px;
 }
 p:hover {
   color: white;
+  padding: 30px;
 }
 .whatsapp-icon {
   margin-top: 16px;
   display: block;
+  padding: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -35,4 +40,34 @@ body {
 }
 .img:hover {
   translate: 5px;
+}
+.btn {
+  text-align: center;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn a {
+  color: aqua;
+  font-size: 25px;
+}
+button {
+  background-color: black;
+}
+.submit {
+  color: red;
+  font-size: 20px;
+}
+.form {
+  align-items: center;
+  text-align: center;
+}
+
+#photo {
+  margin-left: 30px;
+  align-items: left;
+  padding: 30px;
+}
+#photo1 {
+  margin-left: 60px;
 }
